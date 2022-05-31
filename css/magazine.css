@@ -1,6 +1,6 @@
 body{
 	overflow:hidden;
-	background-color:#fcfcfc;
+	background-color:#EBEBEC;
 	margin:0;
 	padding:0;
 }
@@ -9,21 +9,21 @@ body{
 	position:absolute;
 	top:50%;
 	left:50%;
-	width:922px;
-	height:600px;
+	width:954px;
+	height:750px;
 	margin:auto;
 }
 
 .magazine-viewport .magazine{
-	width:922px;
-	height:600px;
-	left:-461px;
-	top:-300px;
+	width:954px;
+	height:750px;
+	left:-4477px;
+	top:-375px;
 }
 
 .magazine-viewport .page{
-	width:461px;
-	height:600px;
+	width:4477px;
+	height:750px;
 	background-color:white;
 	background-repeat:no-repeat;
 	background-size:100% 100%;
@@ -146,38 +146,36 @@ body{
 .magazine-viewport .next-button,
 .magazine-viewport .previous-button{
 	width:22px;
-	height:600px;
+	height:40px;
 	position:absolute;
-	top:0;
+	top:50%;
+	margin-top: -20px;
+	/* border: 1px solid red; */
 }
 
 .magazine-viewport .next-button{
-	right:-22px;
-	-webkit-border-radius:0 15px 15px 0;
-	-moz-border-radius:0 15px 15px 0;
-	-ms-border-radius:0 15px 15px 0;
-	-o-border-radius:0 15px 15px 0;
-	border-radius:0 15px 15px 0;
+	right:-120px;
+	background-image:url(../pics/next-btn.svg);
+	background-position:center center;
+	background-repeat:no-repeat;
 }
 
 .magazine-viewport .previous-button{
-	left:-22px;
-	-webkit-border-radius:15px 0 0 15px;
-	-moz-border-radius:15px 0 0 15px;
-	-ms-border-radius:15px 0 0 15px;
-	-o-border-radius:15px 0 0 15px;
-	border-radius:15px 0 0 15px;
+	left:-120px;
+	background-image:url(../pics/prev-btn.svg);
+	background-position:center center;
+	background-repeat:no-repeat;
 }
 
-.magazine-viewport .previous-button-hover,
+/* .magazine-viewport .previous-button-hover,
 .magazine-viewport .next-button-hover{
 	background-color:rgba(0,0,0, 0.2);
 }
 
 .magazine-viewport .previous-button-hover,
 .magazine-viewport .previous-button-down{
-	background-image:url(../pics/arrows.png);
-	background-position:-4px 284px;
+	background-image:url(../pics/prev-btn.svg);
+	background-position:center center;
 	background-repeat:no-repeat;
 }
 
@@ -191,7 +189,7 @@ body{
 	background-image:url(../pics/arrows.png);
 	background-position:-38px 284px;
 	background-repeat:no-repeat;
-}
+} */
 
 .magazine-viewport .zoom-in .next-button,
 .magazine-viewport .zoom-in .previous-button{
